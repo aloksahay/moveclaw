@@ -1,0 +1,81 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "MoveClaw-arm64-apple-macosx26.0-debug.exe": ["<MoveClaw-arm64-apple-macosx26.0-debug.exe>"]
+  "MoveClaw-arm64-apple-macosx26.0-debug.module": ["<MoveClaw-arm64-apple-macosx26.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<MoveClaw-arm64-apple-macosx26.0-debug.exe>","<MoveClaw-arm64-apple-macosx26.0-debug.module>"]
+  "test": ["<MoveClaw-arm64-apple-macosx26.0-debug.exe>","<MoveClaw-arm64-apple-macosx26.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw":
+    is-mutated: true
+commands:
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw-entitlement.plist"]
+    description: "Write auxiliary file /Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw-entitlement.plist"
+
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/App.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Models/Models.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/CameraService.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/OpenClawService.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VisionService.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VoiceService.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/ViewModels/BetViewModel.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/LiveBetView.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/VoiceChatView.swift"]
+    outputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/sources"]
+    description: "Write auxiliary file /Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/sources"
+
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/App.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/BetViewModel.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/LiveBetView.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/Models.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VisionService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceChatView.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceService.swift.o"]
+    outputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.product/Objects.LinkFileList"
+
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<MoveClaw-arm64-apple-macosx26.0-debug.exe>":
+    tool: phony
+    inputs: ["<MoveClaw-arm64-apple-macosx26.0-debug.exe-CodeSigning>"]
+    outputs: ["<MoveClaw-arm64-apple-macosx26.0-debug.exe>"]
+
+  "<MoveClaw-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/App.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/Models.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VisionService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/BetViewModel.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/LiveBetView.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceChatView.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/Modules/MoveClaw.swiftmodule"]
+    outputs: ["<MoveClaw-arm64-apple-macosx26.0-debug.module>"]
+
+  "C.MoveClaw-arm64-apple-macosx26.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/App.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/BetViewModel.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/LiveBetView.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/Models.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VisionService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceChatView.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.product/Objects.LinkFileList"]
+    outputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/MoveClaw"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug","-o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw","-module-name","MoveClaw","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_MoveClaw_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-6.2/macosx","-target","arm64-apple-macosx14.0","-Xlinker","-add_ast_path","-Xlinker","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/Modules/MoveClaw.swiftmodule","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.MoveClaw-arm64-apple-macosx26.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw-entitlement.plist"]
+    outputs: ["<MoveClaw-arm64-apple-macosx26.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/MoveClaw"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw-entitlement.plist","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw"]
+
+  "C.MoveClaw-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/App.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Models/Models.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/CameraService.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/OpenClawService.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VisionService.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VoiceService.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/ViewModels/BetViewModel.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/LiveBetView.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/VoiceChatView.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/sources"]
+    outputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/App.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/Models.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VisionService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceService.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/BetViewModel.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/LiveBetView.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceChatView.swift.o","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/Modules/MoveClaw.swiftmodule"]
+    description: "Compiling Swift Module 'MoveClaw' (9 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","MoveClaw","-emit-dependencies","-emit-module","-emit-module-path","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/Modules/MoveClaw.swiftmodule","-output-file-map","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/output-file-map.json","-incremental","-c","@/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/sources","-I","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","MoveClaw_main","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","ios"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/","/Users/alok/Projects/Hackathons/moveclaw/ios/Package.swift","/Users/alok/Projects/Hackathons/moveclaw/ios/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

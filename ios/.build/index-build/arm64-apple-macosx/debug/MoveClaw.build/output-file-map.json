@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/master.swiftdeps"
+  },
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/App.swift": {
+    "dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/App.d",
+    "object": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/App.swift.o",
+    "swiftmodule": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/App~partial.swiftmodule",
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/App.swiftdeps",
+    "diagnostics": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/App.dia"
+  },
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Models/Models.swift": {
+    "dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/Models.d",
+    "object": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/Models.swift.o",
+    "swiftmodule": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/Models.swiftdeps",
+    "diagnostics": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/Models.dia"
+  },
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/CameraService.swift": {
+    "dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.d",
+    "object": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.swift.o",
+    "swiftmodule": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/CameraService~partial.swiftmodule",
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.swiftdeps",
+    "diagnostics": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.dia"
+  },
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/MarketService.swift": {
+    "dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketService.d",
+    "object": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketService.swift.o",
+    "swiftmodule": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketService~partial.swiftmodule",
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketService.swiftdeps",
+    "diagnostics": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketService.dia"
+  },
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/OpenClawService.swift": {
+    "dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.d",
+    "object": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.swift.o",
+    "swiftmodule": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService~partial.swiftmodule",
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.swiftdeps",
+    "diagnostics": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.dia"
+  },
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/ViewModels/ChatViewModel.swift": {
+    "dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/ChatViewModel.d",
+    "object": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/ChatViewModel.swift.o",
+    "swiftmodule": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/ChatViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/ChatViewModel.swiftdeps",
+    "diagnostics": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/ChatViewModel.dia"
+  },
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/ViewModels/MarketViewModel.swift": {
+    "dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketViewModel.d",
+    "object": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketViewModel.swift.o",
+    "swiftmodule": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketViewModel.swiftdeps",
+    "diagnostics": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketViewModel.dia"
+  },
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/ChatView.swift": {
+    "dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/ChatView.d",
+    "object": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/ChatView.swift.o",
+    "swiftmodule": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/ChatView~partial.swiftmodule",
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/ChatView.swiftdeps",
+    "diagnostics": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/ChatView.dia"
+  },
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/MarketView.swift": {
+    "dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketView.d",
+    "object": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketView.swift.o",
+    "swiftmodule": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketView~partial.swiftmodule",
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketView.swiftdeps",
+    "diagnostics": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/MarketView.dia"
+  },
+  "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/SettingsView.swift": {
+    "dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/SettingsView.d",
+    "object": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/index-build/arm64-apple-macosx/debug/MoveClaw.build/SettingsView.dia"
+  }
+}

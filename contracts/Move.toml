@@ -5,6 +5,7 @@ authors = []
 
 [addresses]
 moveclaw = "0xa408be510aeaa755b9fc670385022be50573b37434d16d9b1f5300d5ed3c2174"
+aptos_std = "0x1"
 
 [dev-addresses]
 

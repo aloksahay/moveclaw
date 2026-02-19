@@ -1,0 +1,415 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MoveClaw-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/sources",
+      "importPath" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/App.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Models/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/CameraService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/OpenClawService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VisionService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VoiceService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/ViewModels/BetViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/LiveBetView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/VoiceChatView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MoveClaw",
+      "moduleOutputPath" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/Modules/MoveClaw.swiftmodule",
+      "objects" : [
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/App.swift.o",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/Models.swift.o",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.swift.o",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.swift.o",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VisionService.swift.o",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceService.swift.o",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/BetViewModel.swift.o",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/LiveBetView.swift.o",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceChatView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "MoveClaw_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ios"
+      ],
+      "outputFileMapPath" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/App.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VisionService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/BetViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/LiveBetView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceChatView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/Modules/MoveClaw.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/App.swift",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Models/Models.swift",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/CameraService.swift",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/OpenClawService.swift",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VisionService.swift",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VoiceService.swift",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/ViewModels/BetViewModel.swift",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/LiveBetView.swift",
+        "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/VoiceChatView.swift"
+      ],
+      "tempsPath" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MoveClaw" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MoveClaw",
+      "-package-name",
+      "ios",
+      "-c",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/App.swift",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Models/Models.swift",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/CameraService.swift",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/OpenClawService.swift",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VisionService.swift",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VoiceService.swift",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/ViewModels/BetViewModel.swift",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/LiveBetView.swift",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/VoiceChatView.swift",
+      "-I",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "MoveClaw_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ios",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MoveClaw" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw-entitlement.plist"
+    },
+    "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/App.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Models/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/CameraService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/OpenClawService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VisionService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Services/VoiceService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/ViewModels/BetViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/LiveBetView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/MoveClaw/Views/VoiceChatView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/sources"
+    },
+    "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/App.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/BetViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/CameraService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/LiveBetView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/OpenClawService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VisionService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceChatView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.build/VoiceService.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/MoveClaw.product/Objects.LinkFileList"
+    },
+    "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/alok/Projects/Hackathons/moveclaw/ios/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

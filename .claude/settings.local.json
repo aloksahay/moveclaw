@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.movementnetwork.xyz)",
+      "WebFetch(domain:aptos.dev)",
+      "WebFetch(domain:docs.openclaw.ai)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:deepwiki.com)",
+      "WebFetch(domain:www.codecademy.com)",
+      "Bash(wc:*)",
+      "Bash(movement move compile:*)",
+      "Bash(movement move:*)",
+      "Bash(/Users/alok/Projects/Hackathons/moveclaw/ios/Package.swift:*)",
+      "Bash(swift package:*)",
+      "Bash(swift build:*)",
+      "Bash(xcodebuild:*)"
+    ]
+  }
+}
