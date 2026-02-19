@@ -1,0 +1,15 @@
+[package]
+name = "moveclaw"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/movementlabsxyz/aptos-core.git"
+rev = "m1"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
